@@ -1,5 +1,6 @@
-## Hi there 👋
-
+## 
+Dự án nghiên cứu khoa học mắt thần 
+Sử dụng Mediapipe kết hợp BiLSTM 
 <!--
 **quanghoclaptrinh/quanghoclaptrinh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
