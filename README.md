@@ -51,7 +51,7 @@ pip install opencv-python numpy mediapipe tensorflow scikit-learn matplotlib
 ```bash
 git clone [https://github.com/TenCuaBan/TenRepo.git](https://github.com/TenCuaBan/TenRepo.git)
 cd TenRepo
-```
+
 ├── MP_Data/                  # Dữ liệu gốc quay từ camera (Nên thêm vào .gitignore)
 ├── MP_Data_Augmented/        # Dữ liệu đã nhân bản x10 (Nên thêm vào .gitignore)
 ├── main_app.py               # Giao diện Dashboard tổng (UI)
@@ -61,7 +61,7 @@ cd TenRepo
 ├── run1.py                   # Script chạy Real-time
 ├── action_bilstm_v2_best.h5  # File trọng số (Model Weights) tốt nhất
 └── README.md                 # Tài liệu hướng dẫn này
-
+```
 <p align="center">
 <b>[Phạm Huỳnh Quang]</b>
 
