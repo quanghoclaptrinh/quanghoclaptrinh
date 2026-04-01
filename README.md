@@ -41,6 +41,9 @@ Hệ thống nhận diện Ngôn ngữ Ký hiệu (Sign Language Recognition - S
 5. **Output:** Ký tự thủ ngữ được dự đoán với độ tự tin (Confidence > 85%).
 
 ---
+git clone [https://github.com/TenCuaBan/TenRepo.git](https://github.com/TenCuaBan/TenRepo.git)
+cd TenRepo
+pip install opencv-python numpy mediapipe tensorflow scikit-learn matplotlib
 
 ## ⚙️ Hướng dẫn Cài đặt (Installation)
 
@@ -48,3 +51,34 @@ Hệ thống nhận diện Ngôn ngữ Ký hiệu (Sign Language Recognition - S
 ```bash
 git clone [https://github.com/TenCuaBan/TenRepo.git](https://github.com/TenCuaBan/TenRepo.git)
 cd TenRepo
+```
+├── MP_Data/                  # Dữ liệu gốc quay từ camera (Nên thêm vào .gitignore)
+├── MP_Data_Augmented/        # Dữ liệu đã nhân bản x10 (Nên thêm vào .gitignore)
+├── main_app.py               # Giao diện Dashboard tổng (UI)
+├── data1.py                  # Script thu thập dữ liệu (Trích xuất 78 đặc trưng)
+├── augment_data.py           # Script nhân bản bằng toán học
+├── train_lstm.py             # Script huấn luyện AI
+├── run1.py                   # Script chạy Real-time
+├── action_bilstm_v2_best.h5  # File trọng số (Model Weights) tốt nhất
+└── README.md                 # Tài liệu hướng dẫn này
+
+<p align="center">
+<b>[Phạm Huỳnh Quang]</b>
+
+
+Sinh viên ngành Cơ Điện Tử tại Đại học Tôn Đức Thắng (TDTU)
+</p>
+
+<p align="center">
+Kết nối với tôi qua:
+<a href="https://www.google.com/search?q=https://linkedin.com/in/link-cua-ban">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-blue%3Fstyle%3Dflat-square%26logo%3Dlinkedin%26logoColor%3Dwhite" alt="LinkedIn">
+</a>
+<a href="mailto:email-cua-ban@gmail.com">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Email-grey%3Fstyle%3Dflat-square%26logo%3Dgmail%26logoColor%3Dwhite" alt="Email">
+</a>
+</p>
+
+<p align="center">
+<i>Nếu bạn thấy dự án này thú vị, hãy tặng kho lưu trữ này 1 ⭐️ nhé!</i>
+</p>
